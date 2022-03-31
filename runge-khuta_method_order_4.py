@@ -18,8 +18,8 @@ for t in t_range:
     y = y+(dt/6)*(k1+2*k2+2*k3+k4)
     
 plt.figure()
-plt.plot(t_range, y_exact, label='Solution exacte de l\'équation y\'= -ty', c = 'red')
-plt.plot(t_range, y_rk2, label='y\'= −ty par la méthode RK2', c = 'blue')
-plt.plot(t_range, y_rk4, label='y\'= −ty par la méthode RK4', c = 'green')
+plt.plot(t_range, y_exact, label='Exact solutions of the equation y\'= -ty', c = 'red')
+plt.plot(t_range, y_rk2, label='Approximation of y\'= −ty solutions by using RK2', c = 'blue')
+plt.plot(t_range, y_rk4, label='Approximation of y\'= −ty solutions by using RK4', c = 'green')
 plt.legend()
 plt.show()

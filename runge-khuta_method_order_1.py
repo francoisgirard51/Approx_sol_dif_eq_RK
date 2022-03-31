@@ -17,7 +17,7 @@ for t in t_range:
     y = y+dt*k1
 
 plt.figure()
-plt.plot(t_range, y_exact, label='Solution exacte de l\'équation y\'= -ty', c = 'red')
-plt.plot(t_range, y_rk1, label='y\'= −ty par la méthode RK1', c = 'blue')
+plt.plot(t_range, y_exact, label='Exact solutions of the equation y\'= -ty', c = 'red')
+plt.plot(t_range, y_rk1, label='Approximation of y\'= −ty solutions by using RK1 method', c = 'blue')
 plt.legend()
 plt.show()
