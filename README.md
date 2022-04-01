@@ -42,7 +42,7 @@
 
 IV/ Runge-Khuta method of order 4 – RK4
 
-Further analysis (not detailed here) leads to the following formulas:
+Further analysis - *not detailed here* - leads to the following formulas:
 
   - k_1 = f(t_i, y_i)
   - k_2 = f( (t_i + dt/2), (y_i + dt/2) \* k_1 )
