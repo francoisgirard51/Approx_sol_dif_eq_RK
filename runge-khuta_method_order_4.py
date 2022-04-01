@@ -1,4 +1,4 @@
-# We use Runge-Khuta method of order 4: k_4 = f(t_i+dt,y_i+dt*k_3)
+# We use Runge-Kutta method of order 4: k_4 = f(t_i+dt,y_i+dt*k_3)
 # to approximate the solution of the equation: dy = -t*y
 # y_{i+1} approx equal y_i+(dt/6)*(k_1+2k_2+2k_3+k_4)
 
