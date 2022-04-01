@@ -37,7 +37,7 @@
 - In other words, we ask:
 
     - k_1 = f(t_i, y_i),
-    - k_2 =f(t_i + dt/2, y_i dt/2 \* k_1),
+    - k_2 = f(t_i + dt/2, y_i dt/2 \* k_1),
     - y_{i+1} approximatively equal to y_i + dt \* k_2.
 
 IV/ Runge-Khuta method of order 4 – RK4
