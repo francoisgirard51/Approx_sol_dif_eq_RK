@@ -1,4 +1,4 @@
-# We use Runge-Khuta method of order 1: k_1 = f(t_i,y_i)
+# We use Runge-Kutta method of order 1: k_1 = f(t_i,y_i)
 # to approximate the solution of the equation: dy = -t*y
 
 import numpy as np
