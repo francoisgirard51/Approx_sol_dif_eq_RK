@@ -1,4 +1,4 @@
-# We use Runge-Khuta method of order 2: k_2 = f((t_i+dt/2),(y_i+dt/2)*k_1) 
+# We use Runge-Kutta method of order 2: k_2 = f((t_i+dt/2),(y_i+dt/2)*k_1) 
 # to approximate the solution of the equation: dy = -t*y
 
 import numpy as np
