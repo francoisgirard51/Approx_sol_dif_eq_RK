@@ -1,6 +1,7 @@
-# Approximate solutions of differential equations using the Runge-Kutta method
+## I/ Objectives:
+Approximate solutions of differential equations using the Runge-Kutta method
 
-## **I/ Introduction:**
+## II/ Introduction:
 
 *dt = delta t*
 
@@ -8,7 +9,7 @@
   - A solution of this equation is a function y(t) such that for all t we have:  y'(t) = f( (t, y(t) ).
   - For a general function f, we don't have a formula to express the solutions of the equations, but we can draw approximate solutions.
 
-## **II/ Runge-Khuta method of order 4 – RK1**
+## III/ Runge-Khuta method of order 4 – RK1
 
   - The method consists in approaching the solutions point by point.
     We therefore set an initial value t_0 and a step dt, we set t_i = t_0 + i \* dt.
@@ -22,7 +23,7 @@
     - k_1 = f(t_i, y_i),
     - y_{i+1} = y_i + dt \* k_1.
 
-## **III/ Runge-Khuta method of order 2 – RK2**
+## IV/ Runge-Khuta method of order 2 – RK2
 
 - According to the mean value theorem, we know that there exists  'c' belongs to the interval \] t_i, t_{i+1} \[ such that $\displaystyle y'(c) = ( y_{y +1} - y_i ) / dt.
   We therefore have an exact equality y_{i+1} = y_i + dt \* y'(c). Unfortunately, we can't find $c$...
@@ -39,7 +40,7 @@
     - k_2 = f(t_i + dt/2, y_i dt/2 \* k_1),
     - y_{i+1} approximatively equal to y_i + dt \* k_2.
 
-## IV/ Runge-Khuta method of order 4 – RK4
+## V/ Runge-Khuta method of order 4 – RK4
 
 Further analysis - *not detailed here* - leads to the following formulas:
 
@@ -48,11 +49,3 @@ Further analysis - *not detailed here* - leads to the following formulas:
   - k_3 = f( (t_i + dt/2), (y_i+ dt/2) \* k_2 )
   - k_4 = f(t_i + dt, y_i + dt \* k_3)
   - y_{i+1} approx equal to y_i + (dt/6) \* (k_1 + 2k_2 + 2k_3 + k_4)
-    
-
-
-
-
-
-
- 
