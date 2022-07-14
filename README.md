@@ -3,7 +3,7 @@ Approximate solutions of differential equations using the Runge-Kutta method
 
 ## II/ Introduction:
 
-*dt = delta t*
+> dt = delta t
 
   - We consider a general differential equation of order 1 which is written: y' = f(t, y) where f is a function of two variables.
   - A solution of this equation is a function y(t) such that for all t we have:  y'(t) = f( (t, y(t) ).
