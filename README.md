@@ -1,5 +1,4 @@
-# Approx_sol_dif_eq_RK
->*Approximate solutions of differential equations using the Runge-Kutta method*
+# Approximate solutions of differential equations using the Runge-Kutta method
 
 ## **I/ Introduction:**
 
